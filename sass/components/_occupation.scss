@@ -1,0 +1,38 @@
+.occupation {
+    padding-bottom: 94px;
+  }
+  
+  .occupation__title {
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-bottom: 50px;
+  }
+  
+  .occupation__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .occupation__link {
+    position: relative;
+  }
+  
+  .occupation__bottom {
+    position: absolute;
+    width: 100%;
+    top: 224px;
+    padding: 27px 0;
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-bgc);
+    background-color: rgba(47, 48, 58, 0.8);
+    cursor: pointer;
+    border: none;
+  }

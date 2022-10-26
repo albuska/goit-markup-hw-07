@@ -1,0 +1,109 @@
+.footer {
+    display: flex;
+    background-color: var(--secondary-bgc);
+    padding: 60px 0;
+  }
+  
+  .footer__overlay {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .logo--down {
+    color: var(--primary-bgc);
+  }
+  
+  .address__overlay {
+    margin-top: 20px;
+  }
+  
+  .address__link {
+    display: inline-block;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-bgc);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+  
+  .address__tel {
+    display: inline-block;
+    display: flex;
+    margin-top: 9px;
+  }
+  
+  .address__contacts {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .social-networks {
+    margin-left: 70px;
+  }
+  
+  .social-networks__title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-bgc);
+  }
+  
+  .social-networks__list {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .networks__link--gray {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .networks__icons--white {
+    fill: var(--primary-bgc);
+  }
+
+  .form {
+    margin-left: auto;
+  }
+  
+  .form__overlay {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .form__input {
+    padding: 15px 0;
+    padding-left: 16px;
+    min-width: 358px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: var(--primary-bgc);
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+  
+  .form__button {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+  }
+  
+  .form__icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/main/icon-send.svg);
+  }
